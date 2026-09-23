@@ -1,16 +1,15 @@
-import json
+def validate_dataset(dataset):
+    required_fields = [
+        "id",
+        "category",
+        "question",
+        "reference_answer"
+    ]
 
-with open("data/questions.json", "r", encoding="utf-8") as file:
-    dataset = json.load(file)
+    for item in dataset:
+        for field in required_fields:
+            if field not in item:
+                print(f"Eksik alan: {field}, kayıt id: {item.get('id')}")
+                return False
 
-required_fields = [
-    "id",
-    "category",
-    "question",
-    "reference_answer"
-]
-
-for item in dataset:
-    for field in required_fields:
-        if field not in item:
-            print(f"Missing field: {field}")
+    return True
