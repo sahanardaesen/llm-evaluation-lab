@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "comparison",
+    "question": "Python'da liste ile tuple arasındaki fark nedir?",
+    "reference_answer": "Liste değiştirilebilir, tuple ise değiştirilemez."
+  },
+  {
+    "id": 2,
+    "category": "factual",
+    "question": "HTTP 404 status code ne anlama gelir?",
+    "reference_answer": "İstenen kaynağın bulunamadığını belirtir."
+  },
+  {
+    "id": 3,
+    "category": "definition",
+    "question": "Machine learning nedir?",
+    "reference_answer": "Bilgisayarların açıkça programlanmadan verilerden örüntüler öğrenmesini sağlayan yöntemler bütünüdür."
+  },
+  {
+    "id": 4,
+    "category": "comparison",
+    "question": "SQL ile NoSQL veritabanları arasındaki temel fark nedir?",
+    "reference_answer": "SQL veritabanları genellikle ilişkisel ve şemaya dayalıdır; NoSQL veritabanları ise farklı veri modellerini destekler ve daha esnek şemalar sunabilir."
+  },
+  {
+    "id": 5,
+    "category": "coding",
+    "question": "Python'da bir listenin uzunluğunu nasıl bulursun?",
+    "reference_answer": "Python'da bir listenin eleman sayısını bulmak için len() fonksiyonu kullanılır."
+  }
+]
