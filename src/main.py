@@ -1,13 +1,15 @@
 import json
 
 
+def load_dataset():
+    with open("data/questions.json", "r", encoding="utf-8") as file:
+        dataset = json.load(file)
+
+    return dataset
+
+
 def validate_dataset(dataset):
-    required_fields = [
-        "id",
-        "category",
-        "question",
-        "reference_answer"
-    ]
+    required_fields = ["id", "category", "question", "reference_answer"]
 
     for item in dataset:
         for field in required_fields:
@@ -37,8 +39,7 @@ def get_category_counts(dataset):
 
 
 if __name__ == "__main__":
-    with open("data/questions.json", "r", encoding="utf-8") as file:
-        dataset = json.load(file)
+    dataset = load_dataset()
 
     is_valid = validate_dataset(dataset)
 
