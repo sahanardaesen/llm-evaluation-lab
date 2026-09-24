@@ -15,6 +15,10 @@ def validate_dataset(dataset):
                 print(f"Eksik alan: {field}, kayıt id: {item.get('id')}")
                 return False
 
+            if not item[field]:
+                print(f"Boş alan: {field}, kayıt id: {item.get('id')}")
+                return False
+
     return True
 
 
