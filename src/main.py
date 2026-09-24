@@ -32,17 +32,17 @@ def get_category_counts(dataset):
     return category_counts
 
 
-with open("data/questions.json", "r", encoding="utf-8") as file:
-    dataset = json.load(file)
+if __name__ == "__main__":
+    with open("data/questions.json", "r", encoding="utf-8") as file:
+        dataset = json.load(file)
 
+    is_valid = validate_dataset(dataset)
 
-is_valid = validate_dataset(dataset)
+    print("Dataset valid:", is_valid)
 
-print("Dataset valid:", is_valid)
+    category_counts = get_category_counts(dataset)
 
-category_counts = get_category_counts(dataset)
+    print("\nCategory counts:")
 
-print("\nCategory counts:")
-
-for category, count in category_counts.items():
-    print(f"{category}: {count}")
+    for category, count in category_counts.items():
+        print(f"{category}: {count}")
