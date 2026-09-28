@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "category": "comparison",
+        "question": "Python'da liste ile tuple arasındaki fark nedir?",
+        "reference_answer": "Liste değiştirilebilir, tuple ise değiştirilemez.",
+        "model_answer": "Python'da liste ve tuple, ikisinin de benzeri ve farklı özelliklerine sahip kümelerdir. İşte bu iki yapı arasındaki ana farkları anlatacağım:\n\n1. **Depozit Durumu:**\n   - **Liste:** Değişiklikler yapılabiliyor.\n   - **Tuple:** Değişiklik yapmaz, yalnızca okunur.\n\n2. **Sıralama:** \n   - **Liste:** Sıralanabilir.\n   - **Tuple:** Sıralanabilir (yani sırayla dolaşılabilir).\n\n3. **Aralıklı Yaratma:** \n   - **Liste:** Yaratıldığında, iç içe geçmiş öğeleri içerir (örneğin, bir liste içindeki elemanlar bir liste olabilir).\n   - **Tuple:** İlişkeli öğeleri içerir, o da bir yapıdır (örneğin, bir liste ve bir dize).\n\n4. **Farklı Nedensel Kullanım:** \n   - **Liste:** Genellikle veri kümesini değiştirmek veya yeni öğeler eklemek için kullanılıyor.\n   - **Tuple:** Veri kümesinin saklanması ve erişimleri daha güvenli tutulması için kullanılıyor.\n\n5. **Yazılış:**\n   - **Liste:** Genellikle veri kümesi için kullanılır ve genellikle parantezlerle işaretlenir (örneğin, `[1, 2, 3]`).\n   - **Tuple:** Veri kümesinin bir yapı olduğunu belirtmek için genellikle parantezlerle işaretlenir (örneğin, `(1, 2, 3)`), ancak benzersiz tuple genellikle parantez kullanılmaz (örneğin, `(1, 2, 3)`). Ancak, genellikle parantez kullanıldığında daha fazla okunabilirliği sağlar.\n\n6. **Hesaplama:** \n   - **Liste:** İlişkisel öğeleri içerir (örneğin, bir liste içindeki elemanlar bir liste olabilir), bu nedenle genellikle daha zor hale gelir.\n   - **Tuple:** İlişkisel öğeleri içermez, bu nedenle daha hızlı ve daha az verimli hesaplamaları içerir.\n\nBu özellikleri göz önünde bulundurarak, hangi veri kümesine ve hangi durumda hangi yapı kullanacağını karar vermeniz gerekebilir.",
+        "score": 0.46613961458206177
+    },
+    {
+        "id": 2,
+        "category": "factual",
+        "question": "HTTP 404 status code ne anlama gelir?",
+        "reference_answer": "İstenen kaynağın bulunamadığını belirtir.",
+        "model_answer": "HTTP 404 durumu kodu, \"Not Found\" anlamına gelir. Yani, belirtilen kaynağ (genellikle bir web sayfası veya dosya) mevcut olmadığını belirtir. Bu durum genellikle kullanıcılar, belirli bir sayfaya erişim isterken, ancak belirtilen sayfaya ait kaynaklar (örneğin, dosya veya dizin) mevcut olmadığını gösterir.\n\nÖrneğin, kullanıcı web sitesinde \"https://www.example.com/nonexistent-page\" adresi arayacağınıza göre, böyle bir sayfaya ait kaynak bulunmadığında, 404 durumu kodu gösterilir. Bu durumun genellikle kullanılan yöntemler arasında, belirtilen kaynakın yerini bulmak veya belirli bir yolunu yeniden seçmek yer alabilir.",
+        "score": 0.47029945254325867
+    },
+    {
+        "id": 3,
+        "category": "definition",
+        "question": "Machine learning nedir?",
+        "reference_answer": "Bilgisayarların açıkça programlanmadan verilerden örüntüler öğrenmesini sağlayan yöntemler bütünüdür.",
+        "model_answer": "Machine learning (ML,.machine learning en ingilizcede) bir dal olumlu yapay zeka ile ilgili ve bu dal, bilgisayar sistemlerinin kendi self-learning yapısına dayalı olarak veri ve öngörülebilir sonuçlar elde etmesine olanak tanır. İşte ML'nin ana özellikleri ve temel kavramları:\n\n1. Teknikleri: ML, veri analizine ve makine öğrenmesine dayanır. Makine öğrenmesi, bir makine veya bir bilgisayar sistemiyle nasıl çalıştırılacağını belirleme sürecidir.\n\n2. Makine Öğrenmesi: Makine öğrenmesi, makine ya da bilgisayar sisteminin (örneğin bir kamera veya bir kalkan) belirli bir görevi gerçekleştirebileceğini gösteren veriler üzerinde eğitildiği bir süreçtir.\n\n3. Veri: Makine öğrenmesi sürecinde veri, makine veya bilgisayar sisteminin nasıl davranacağını belirleyen önemli faktördür. Makine öğrenmesi sürecinde kullanılan veri, genel olarak bir makine öğrenmesi modeli oluşturmak için kullanılır.\n\n4. Model Oluşturma: Makine öğrenmesi sürecinde kullanılan verilerin bir modeli oluşturmak için kullanılır. Bu, makine veya bilgisayar sistemi belirli bir giriş koşulları altında hangi bir output ürettiğini belirtir.\n\n5. Öngörüler: Makine öğrenmesi sürecindeki bir model, veri üzerinde eğitildikten sonra veri kümesine ait öngörüler oluşturur.\n\n6. Optimizasyon: Makine öğrenmesi sürecinde modelin performansunu artırmak için bazı optimization teknikleri de uygulanır.\n\nML, büyük verilerle dolu olmak üzere çeşitli kavramlar ve yöntemlerle ilgili ve bu kavramlar genellikle \"veri\" ve \"eğitim\" konusunda kullanılır. Makine öğrenmesi, büyük veri analizinde ve yapay zeka uygulamalarında temel bir yere sahiptir.",
+        "score": 0.5546569228172302
+    },
+    {
+        "id": 4,
+        "category": "comparison",
+        "question": "SQL ile NoSQL veritabanları arasındaki temel fark nedir?",
+        "reference_answer": "SQL veritabanları genellikle ilişkisel ve şemaya dayalıdır; NoSQL veritabanları ise farklı veri modellerini destekler ve daha esnek şemalar sunabilir.",
+        "model_answer": "SQL ile NoSQL veritabanları arasındaki temel fark, genellikle veri yapısının ve veri yapısına özgü yönetimi işlemlerinin nasıl şekillenmesi konusunda farklılık göstermektedir.\n\nSQL (Structured Query Language) veritabanı sistemleri genellikle tablo yapısı gereklidir, bu tablolar genellikle sütunlar ve satırlar şeklinde düzenlenir ve bu sütunlar genellikle veri sınıflarına göre düzenlenir. Bu veritabanı türleri genellikle \"tavsiye edilen\" veri tipleri (örneğin, numaralar, metin, boolean) kullanır.\n\nNoSQL veritabanları genellikle veri tiplerini kısıtlamaz, bu nedenle daha uyumlu bir veri yapısı oluşturmak için daha faydalı olabilir. NoSQL veritabanları genellikle \"yamu\" veya \"document\" gibi daha karmaşık veri yapısı kullanır ve veriler genellikle tamamen tek bir düğüm veya \"node\" olarak kabul edilir.\n\nAyrıca, SQL veritabanı sistemleri genellikle belirli bir veri yapısı ve veri tipleri için tasarlanmış modüler bir yapının olması gereklidir. Bununla birlikte, NoSQL veritabanı sistemleri genellikle veri yapısına özgü yönetimi işlemlerini (yani belirli bir veri tipli veri tabanını oluşturmak için kullanmak üzere) kısıtlamaz veya belirli bir veri yapısı (örneğin, tablo yapısı) gerektirmez.\n\nBu temel farklar nedeniyle, SQL ve NoSQL veritabanı sistemleri genellikle farklı uygulamalara ve veri tiplerine en uygun şekilde kullanılmaktadır. Bu nedenle, hangi veritabanı sistemini kullanmak daha uygun olup olmadığından, uygulamanızın ihtiyaçlarına ve veri yapısı modelinize bağlı olarak değişebilir.",
+        "score": 0.7490224838256836
+    },
+    {
+        "id": 5,
+        "category": "coding",
+        "question": "Python'da bir listenin uzunluğunu nasıl bulursun?",
+        "reference_answer": "Python'da bir listenin eleman sayısını bulmak için len() fonksiyonu kullanılır.",
+        "model_answer": "Python'da bir listenin uzunluğunu bulmak için len() fonksiyonunu kullanabilirsiniz. İşte bir örnek:\n\n```python\nmy_list = [1, 2, 3, 4, 5]\nlength_of_list = len(my_list)\nprint(length_of_list)\n```\n\nBu kodu çalıştırıldığında, `my_list`'ın uzunluğu (5) yazdırılır. Her bir listenin eleman sayısını döndürür.",
+        "score": 0.8569166660308838
+    }
+]
