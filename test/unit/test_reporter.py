@@ -14,7 +14,7 @@ def test_save_results(tmp_path):
 
     file_path = tmp_path / "results.json"
 
-    save_results(results, file_path)
+    save_results(results, 0.85, file_path)
 
     with open(file_path, "r", encoding="utf-8") as file:
         saved_results = json.load(file)
