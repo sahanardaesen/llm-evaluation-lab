@@ -7,7 +7,12 @@ def generate_answer(question):
         messages=[
             {
                 "role": "user",
-                "content": question
+                "content": f"""
+                    Answer the question directly and concisely.
+                    Do not add unnecessary explications, examples, or introductions.
+                    Use no more then 1-2 short sentences.
+                    Question:{question}
+                """
             }
         ]
     )

@@ -2,31 +2,31 @@
   {
     "id": 1,
     "category": "comparison",
-    "question": "Python'da liste ile tuple arasındaki fark nedir?",
-    "reference_answer": "Liste değiştirilebilir, tuple ise değiştirilemez."
+    "question": "What is the difference between a list and a tuple in Python?",
+    "reference_answer": "A list is mutable, while a tuple is immutable."
   },
   {
     "id": 2,
     "category": "factual",
-    "question": "HTTP 404 status code ne anlama gelir?",
-    "reference_answer": "İstenen kaynağın bulunamadığını belirtir."
+    "question": "What does the HTTP 404 status code mean?",
+    "reference_answer": "It indicates that the requested resource could not be found."
   },
   {
     "id": 3,
     "category": "definition",
-    "question": "Machine learning nedir?",
-    "reference_answer": "Bilgisayarların açıkça programlanmadan verilerden örüntüler öğrenmesini sağlayan yöntemler bütünüdür."
+    "question": "What is machine learning?",
+    "reference_answer": "Machine learning is a set of methods that enables computers to learn patterns from data without being explicitly programmed."
   },
   {
     "id": 4,
     "category": "comparison",
-    "question": "SQL ile NoSQL veritabanları arasındaki temel fark nedir?",
-    "reference_answer": "SQL veritabanları genellikle ilişkisel ve şemaya dayalıdır; NoSQL veritabanları ise farklı veri modellerini destekler ve daha esnek şemalar sunabilir."
+    "question": "What is the main difference between SQL and NoSQL databases?",
+    "reference_answer": "SQL databases are generally relational and schema-based, while NoSQL databases support different data models and can offer more flexible schemas."
   },
   {
     "id": 5,
     "category": "coding",
-    "question": "Python'da bir listenin uzunluğunu nasıl bulursun?",
-    "reference_answer": "Python'da bir listenin eleman sayısını bulmak için len() fonksiyonu kullanılır."
+    "question": "How do you find the length of a list in Python?",
+    "reference_answer": "The len() function is used to find the number of elements in a Python list."
   }
 ]
